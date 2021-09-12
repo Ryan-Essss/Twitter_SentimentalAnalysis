@@ -3,7 +3,7 @@ This project uses machine learning to create a Twitter sentiment natural languag
 
 ## Table of Contents
 * [General Info](#general-info)
-* [Models]{#models)
+* [Models](#models)
 * [Tools Used](#tools)
 * [Flask App](#flask-app)
 * [Sentiment Output](#sentiment-output)
@@ -23,10 +23,10 @@ Twitter Data was found on Kaggle, cleaned, and created a pipeline to train and p
 * 'Support Vector Machine'
 
 
-![svm](images/cluster_std=1.25_SVM.png)
+![svm](Images/cluster_std=1.25_SVM.png)
 
 
-![results](images/actualvspredictions.png)
+![results](Images/actualvspredictions.png)
 
 ### Tools
 * 'Pyspark'
@@ -40,15 +40,15 @@ Twitter Data was found on Kaggle, cleaned, and created a pipeline to train and p
 * 'Flask'
 
 ### Flask App
-![flask](images/web_page.png)
+![flask](Images/web_page.png)
 
 
 ### Sentiment Output
 The most common words and phrases used in a positive or negative tweet.
 
 #### Positive
-![positive](images/positive.png)
+![positive](Images/positive.png)
 
 
 #### Negative
-![negative](images/negative.png)
+![negative](Images/negative.png)
