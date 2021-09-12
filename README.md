@@ -14,6 +14,8 @@ This project uses machine learning to create a Twitter sentiment natural languag
 ### General Info
 Twitter Data was found on Kaggle, cleaned, and created a pipeline to train and predict several models using Scikit Learn and Pyspark.
 
+The data is cleaned, tokenized, stop words are removed, CoutVectorizer is used to discover the term frequency, and then the word input is hashed.
+
 ### Models
 * 'Naive Bayes' 
 * 'K Nearest Neighbor' 
@@ -40,6 +42,8 @@ Twitter Data was found on Kaggle, cleaned, and created a pipeline to train and p
 * 'Flask'
 
 ### Flask App
+A website was created to create an analysis on a user-made tweet.  Symbols, punctuation, user-names, and spaces are removed and then we utilize our NLP Pipeline.
+
 ![flask](Images/web_page.png)
 
 
