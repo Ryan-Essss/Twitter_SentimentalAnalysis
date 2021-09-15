@@ -17,12 +17,12 @@ Twitter Data was found on Kaggle, cleaned, and created a pipeline to train and p
 The data is cleaned, tokenized, stop words are removed, CoutVectorizer is used to discover the term frequency, and then the word input is hashed.
 
 ### Models
-* 'Naive Bayes' 
-* 'K Nearest Neighbor' 
-* 'Deep Learning'
-* 'Logistic Regression' 
-* 'Decision Trees' 
-* 'Support Vector Machine'
+* `Naive Bayes`
+* `K Nearest Neighbor`
+* `Deep Learning`
+* `Logistic Regression` 
+* `Decision Trees`
+* `Support Vector Machine`
 
 
 ![svm](Images/cluster_std=1.25_SVM.png)
@@ -31,15 +31,15 @@ The data is cleaned, tokenized, stop words are removed, CoutVectorizer is used t
 ![results](Images/actualvspredictions.png)
 
 ### Tools
-* 'Pyspark'
-* 'Python'
-* 'Jupyter Notebook'
-* 'Pandas'
-* 'scikit-learn'
-* 'Tableau'
-* 'HTML, CSS, and JavaScript'
-* 'Bootstrap'
-* 'Flask'
+* `Pyspark`
+* `Python`
+* `Jupyter Notebook`
+* `Pandas`
+* `scikit-learn`
+* `Tableau`
+* `HTML`, `CSS`, and `JavaScript`
+* `Bootstrap`
+* `Flask`
 
 ### Flask App
 A website was created to create an analysis on a user-made tweet.  Symbols, punctuation, user-names, and spaces are removed and then we utilize our NLP Pipeline.
